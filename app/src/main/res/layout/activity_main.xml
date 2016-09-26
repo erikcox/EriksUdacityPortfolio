@@ -22,24 +22,51 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
+            android:gravity="center"
             android:text="My Nanodegree Apps"
             android:textAppearance="@android:style/TextAppearance.Material.Medium"
-            android:layout_marginBottom="10dp"
-            android:textStyle="bold"/>
+            android:layout_marginBottom="15dp"/>
 
         <Button
-            android:id="@+id/btnBuildItBigger"
+            android:id="@+id/btnPopularMovies"
+            android:onClick="btnToast"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/btnBuildItBigger"
+            android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true"
-            android:text="Build it Bigger"
+            android:text="Popular Movies"
             android:background="@color/btnDefault"
             android:textColor="?android:attr/textColorPrimaryInverse"
             android:layout_marginBottom="5dp"/>
 
         <Button
+            android:id="@+id/btnStockHawk"
+            android:onClick="btnToast"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnPopularMovies"
+            android:layout_centerHorizontal="true"
+            android:text="Stock Hawk"
+            android:background="@color/btnDefault"
+            android:layout_marginBottom="5dp"
+            android:textColor="?android:attr/textColorPrimaryInverse"/>
+
+        <Button
+            android:id="@+id/btnBuildItBigger"
+            android:onClick="btnToast"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btnPopularMovies"
+            android:layout_alignRight="@+id/btnPopularMovies"
+            android:layout_below="@+id/btnStockHawk"
+            android:text="Build It Bigger"
+            android:background="@color/btnDefault"
+            android:layout_marginBottom="5dp"
+            android:textColor="?android:attr/textColorPrimaryInverse"/>
+
+        <Button
             android:id="@+id/btnMakeYourAppMaterial"
+            android:onClick="btnToast"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/btnBuildItBigger"
@@ -51,6 +78,7 @@
 
         <Button
             android:id="@+id/btnGoUbiquitous"
+            android:onClick="btnToast"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/btnMakeYourAppMaterial"
@@ -61,47 +89,15 @@
             android:layout_marginBottom="5dp"/>
 
         <Button
-            android:id="@+id/btnPopularMovies"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/textView"
-            android:layout_centerHorizontal="true"
-            android:text="Popular Movies"
-            android:background="@color/btnDefault"
-            android:textColor="?android:attr/textColorPrimaryInverse"
-            android:layout_marginBottom="5dp"/>
-
-        <Button
             android:id="@+id/btnCapstone"
+            android:onClick="btnToast"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/btnGoUbiquitous"
             android:layout_centerHorizontal="true"
             android:text="Capstone"
             android:background="@color/btnDefault"
-            android:textColor="?android:attr/textColorPrimaryInverse"
-            android:layout_marginBottom="5dp"/>
-
-        <Button
-            android:id="@+id/btnStockHawk"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/btnPopularMovies"
-            android:layout_centerHorizontal="true"
-            android:text="Stock Hawk"
-            android:background="@color/btnDefault"
-            android:textColor="?android:attr/textColorPrimaryInverse"
-            android:layout_marginBottom="5dp"/>
-
-        <Button
-            android:id="@+id/btnBuildItBigger"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/btnPopularMovies"
-            android:layout_alignRight="@+id/btnPopularMovies"
-            android:layout_below="@+id/btnStockHawk"
-            android:text="Build It Bigger"
-            android:background="@color/btnDefault"
             android:textColor="?android:attr/textColorPrimaryInverse"/>
+
     </LinearLayout>
 </RelativeLayout>
