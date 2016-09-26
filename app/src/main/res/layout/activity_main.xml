@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:gravity="center"
+            android:gravity=""
             android:text="My Nanodegree Apps"
             android:textAppearance="@android:style/TextAppearance.Material.Medium"
             android:layout_marginBottom="15dp"/>
