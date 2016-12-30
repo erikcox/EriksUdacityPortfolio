@@ -15,3 +15,13 @@ This is an Android app that links to all of the Android apps I've built in the U
 * [x] Create a layout for your main activity, adding a title, buttons for each app, and a style of your choosing
 
 ![App mockup screenshot](app_mockup.png)
+
+## License
+
+    Copyright 2016 Erik Cox
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
